@@ -1,0 +1,25 @@
+
+.buttons {
+    padding: 2em;
+}
+
+.buttons button {
+    padding: 2 em;
+    background-color: red;
+}
+
+.buttons button:hover,
+.buttons .btn-clicked {
+    background: blue;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.images div {
+    background-color: purple;
+}

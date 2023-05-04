@@ -877,7 +877,7 @@ transition: 1s;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: 1fr;
-                grid-column-gap: 540px;
+                grid-column-gap: 1270px;
                 z-index: 2;
                 transition:0;
                 border-bottom: white solid 1px;

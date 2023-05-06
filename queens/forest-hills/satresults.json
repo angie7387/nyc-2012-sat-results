@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "28Q440",
+    "schoolname": "FOREST HILLS HIGH SCHOOL",
+    "location": "Queens",
+    "graduates": "44.7%",
+    "asian": 24.5,
+    "black": 8.4,
+    "hispanic": 34.5,
+    "multiracial": 0.3,
+    "nativeamerican": 0.9,
+    "white": 29,
+    "poverty": "66.50%",
+    "reading": 456,
+    "math": 497,
+    "writing": 454,
+    "total": 1407
   }
 
 ]

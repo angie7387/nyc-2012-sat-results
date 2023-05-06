@@ -47,7 +47,6 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 //again
-
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -100,6 +99,7 @@ for (var i = 0; i < btns.length; i++) {
 
 filterSelection("all")
 function filterSelection(c) {
+  console.log('filter');
   var x, i;
   x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
@@ -159,3 +159,11 @@ function myFunction() {
     }
   }
 }
+
+
+const closeButton = document.querySelector('#close-button');
+const closableElement = document.querySelector('#closable-element');
+closeButton.addEventListener('click', () => {
+  closableElement.style.display = 'none';
+});
+

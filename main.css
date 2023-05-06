@@ -1,11 +1,16 @@
+
+
+
 body {
 font-family: 'Roboto', sans-serif;
 margin: -1px;
+
 }
 
 h1 {
     font-weight: 500;
     font-size: 14pt;
+    color: white;
 }
 
 h2 {
@@ -16,6 +21,28 @@ h4 {
     font-size: 10pt;
 }
 
+  .rightalign {
+    text-align: right;
+  }
+
+  #closable-element {
+    position: fixed;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: none;
+
+  }
+  
+  #close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+
+  }
+
+  
 .parent-heading {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -23,7 +50,7 @@ h4 {
     grid-column-gap: 10px;
     grid-row-gap: 0px;
     background: black;
-    color: white;
+
     padding: 10px;
     }
 
@@ -37,7 +64,8 @@ h4 {
     padding-left: 10px;
     border: 1px black solid;
     border-top: none;
-    height: 179px;
+    height: 60%;
+    width: 100%;
     margin-bottom: -19px;
     }
 
@@ -171,7 +199,10 @@ h4 {
     background-color: #00C57E;
 }
 
-
+img {
+  z-index: 3;
+  width: 50%;
+}
 
 .item1 {
     text-align: left;
@@ -200,6 +231,22 @@ h4 {
 
   
 }
+
+   .academy-for-language:hover {
+        width: 335px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #00C57E;
+        cursor:pointer;
+        transition:0;
+        border-bottom: white solid 1px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 150px;
+        z-index: 2;
+    }
 
 .grid {
   display: grid;
@@ -251,6 +298,21 @@ h4 {
 
 }
 
+
+.blank {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border-top: none;
+  width: 200px;
+  height: 10px;
+  padding: 10px;
+  transition:0s 180s;
+  border-top: white solid 1px;
+
+}
+
 .harvey {
   text-align: left;
   margin-left: 0px;
@@ -282,21 +344,6 @@ margin: auto;
 transition: 1s;
 }
 
-.academy-for-language:hover {
-  width: 340px;
-  border: none;
-  border-left: 1px black solid;
-  transition: 1s ease-in-out;
-  background-color: #00C57E;
-  cursor:pointer;
-  transition:0;
-  border-bottom: white solid 1px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 160px;
-  z-index: 2;
-}
 
 .bronx-science:hover {
   width: 355px;
@@ -333,7 +380,7 @@ transition: 1s;
 
 
 .fordham:hover {
-  width: 395px;
+  width: 425px;
   border: none;
   border-left: 1px black solid;
   transition: 1s ease-in-out;
@@ -344,12 +391,12 @@ transition: 1s;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 212px;
+  grid-column-gap: 235px;
   z-index: 2;
 }
 
 .harvey:hover {
-  width: 1180px;
+  width: 650px;
   border: none;
   border-left: 1px black solid;
   transition: 1s ease-in-out;
@@ -360,7 +407,7 @@ transition: 1s;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 995px;
+  grid-column-gap: 470px;
   z-index: 2;
 }
 
@@ -416,11 +463,12 @@ transition: 1s;
     width: 200px;
     padding: 10px;
     transition:0s 180s;
-    height: 75px;
+    height: 40px;
   }
   
   .hmse:hover {
     width: 1100px;
+    grid-column-gap: 920px;
     border: none;
     border-left: 1px black solid;
     transition: 1s ease-in-out;
@@ -429,7 +477,6 @@ transition: 1s;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 920px;
     z-index: 2;
     transition:0;
     border-bottom: white solid 1px;
@@ -444,7 +491,7 @@ transition: 1s;
     border: 1px black solid;
     border-top: none;
     width: 200px;
-    height: 20px;
+    height: 40px;
     padding: 10px;
     transition:0s 180s;
     
@@ -507,7 +554,7 @@ transition: 1s;
         width: 200px;
         padding: 10px;
         transition:0s 180s;
-        height: 75px;
+        height: 40px;
       }
       
       .lga:hover {
@@ -620,7 +667,7 @@ transition: 1s;
     border: 1px black solid;
     border-top: none;
     width: 200px;
-    height: 20px;
+    height: 40px;
     padding: 10px;
     transition:0s 180s;
   }
@@ -657,6 +704,7 @@ transition: 1s;
 
 .jacqueline:hover {
   width: 600px;
+  grid-column-gap: 420px;
   border: none;
   border-left: 1px black solid;
   transition: 1s ease-in-out;
@@ -665,7 +713,6 @@ transition: 1s;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 420px;
   z-index: 2;
   transition:0;
   border-bottom: white solid 1px;
@@ -741,13 +788,14 @@ transition: 1s;
         border: 1px black solid;
         border-top: none;
         width: 200px;
-        height: 20px;
+        height: 40px;
         padding: 10px;
         transition:0s 180s;
       }
       
       .city-as-school:hover {
         width: 750px;
+        grid-column-gap: 570px;
         border: none;
         border-left: 1px black solid;
         transition: 1s ease-in-out;
@@ -756,7 +804,6 @@ transition: 1s;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 570px;
         z-index: 2;
         transition:0;
         border-bottom: white solid 1px;
@@ -802,7 +849,7 @@ transition: 1s;
           border: 1px black solid;
           border-top: none;
           width: 200px;
-          height: 75px;
+          height: 40px;
           padding: 10px;
           transition:0s 180s;
         }
@@ -854,7 +901,250 @@ transition: 1s;
             
               }
 
-              .stuy {
+.stuy {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+}
+
+.stuy:hover {
+  width: 1350px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #FFAB6F;
+  cursor:pointer;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 110px;
+  z-index: 2;
+  transition:0;
+  border-bottom: white solid 1px;
+
+  }
+
+  .academy-of-innovation {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    border: 1px black solid;
+    border-top: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    transition:0s 180s;
+    }
+    
+    .academy-of-innovation:hover {
+    width: 466px;
+    border: none;
+    border-left: 1px black solid;
+    transition: 1s ease-in-out;
+    background-color: #6CD1F1;
+    cursor:pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 284px;
+    z-index: 2;
+    transition:0;
+    border-bottom: white solid 1px;
+    
+    }
+
+    .brooklyn-latin {
+      text-align: left;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom:0px;
+      border: 1px black solid;
+      border-top: none;
+      width: 200px;
+      height: 40px;
+      padding: 10px;
+      transition:0s 180s;
+      }
+      
+      .brooklyn-latin:hover {
+      width: 1050px;
+      border: none;
+      border-left: 1px black solid;
+      transition: 1s ease-in-out;
+      background-color: #6CD1F1;
+      cursor:pointer;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 870px;
+      z-index: 2;
+      transition:0;
+      border-bottom: white solid 1px;
+      
+      }
+
+
+      .brooklyn-tech {
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+        border: 1px black solid;
+        border-top: none;
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+        transition:0s 180s;
+        }
+        
+        .brooklyn-tech:hover {
+        width: 1130px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #6CD1F1;
+        cursor:pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 950px;
+        z-index: 2;
+        transition:0;
+        border-bottom: white solid 1px;
+        
+        }
+
+
+        .international-hs {
+          text-align: left;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom:0px;
+          border: 1px black solid;
+          border-top: none;
+          width: 200px;
+          height: 40px;
+          padding: 10px;
+          transition:0s 180s;
+          }
+          
+          .international-hs:hover {
+         width: 300px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #6CD1F1;
+        cursor:pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 120px;
+        z-index: 2;
+        transition:0;
+        border-bottom: white solid 1px;
+          
+          }
+
+
+        .it-takes-a-village {
+          text-align: left;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom:0px;
+          border: 1px black solid;
+          border-top: none;
+          width: 200px;
+          height: 40px;
+          padding: 10px;
+          transition:0s 180s;
+          }
+          
+          .it-takes-a-village:hover {
+          width: 355px;
+          border: none;
+          border-left: 1px black solid;
+          transition: 1s ease-in-out;
+          background-color: #6CD1F1;
+          cursor:pointer;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 175px;
+          z-index: 2;
+          transition:0;
+          border-bottom: white solid 1px;
+          
+          }
+
+          .forest-hill {
+            text-align: left;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom:0px;
+            border: 1px black solid;
+            border-top: none;
+            width: 200px;
+            height: 40px;
+            padding: 10px;
+            transition:0s 180s;
+            }
+            
+            .forest-hill:hover {
+            border: none;
+            border-left: 1px black solid;
+            transition: 1s ease-in-out;
+            background-color: #FF7EE3;
+            cursor:pointer;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            z-index: 2;
+            transition:0;
+            border-bottom: white solid 1px;
+            width: 748px;
+            grid-column-gap: 570px;
+            
+            }
+
+            .pan-american {
+              text-align: left;
+              margin-left: 0px;
+              margin-top: 0px;
+              margin-bottom:0px;
+              border: 1px black solid;
+              border-top: none;
+              width: 200px;
+              height: 40px;
+              padding: 10px;
+              transition:0s 180s;
+              }
+              
+              .pan-american:hover {
+              width: 345px;
+              border: none;
+              border-left: 1px black solid;
+              transition: 1s ease-in-out;
+              background-color: #FF7EE3;
+              cursor:pointer;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-template-rows: 1fr;
+              grid-column-gap: 175px;
+              z-index: 2;
+              transition:0;
+              border-bottom: white solid 1px;
+              
+              }
+
+              .queens-science {
                 text-align: left;
                 margin-left: 0px;
                 margin-top: 0px;
@@ -865,24 +1155,86 @@ transition: 1s;
                 height: 40px;
                 padding: 10px;
                 transition:0s 180s;
-              }
-              
-              .stuy:hover {
-                width: 1450px;
+                }
+                
+                .queens-science:hover {
                 border: none;
                 border-left: 1px black solid;
                 transition: 1s ease-in-out;
-                background-color: #FFAB6F;
+                background-color: #FF7EE3;
                 cursor:pointer;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: 1fr;
-                grid-column-gap: 1270px;
+                width: 1160px;
+                grid-column-gap: 980px;                
                 z-index: 2;
                 transition:0;
                 border-bottom: white solid 1px;
-              
+                
                 }
+
+                .queens-tech {
+                  text-align: left;
+                  margin-left: 0px;
+                  margin-top: 0px;
+                  margin-bottom:0px;
+                  border: 1px black solid;
+                  border-top: none;
+                  width: 200px;
+                  height: 40px;
+                  padding: 10px;
+                  transition:0s 180s;
+                  }
+                  
+                  .queens-tech:hover {
+                  border: none;
+                  border-left: 1px black solid;
+                  transition: 1s ease-in-out;
+                  background-color: #FF7EE3;
+                  cursor:pointer;
+                  display: grid;
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: 1fr;
+                  width: 630px;
+                  grid-column-gap: 450px;
+                  z-index: 2;
+                  transition:0;
+                  border-bottom: white solid 1px;
+                  
+                  }
+  
+
+
+                .townsend-harris {
+                  text-align: left;
+                  margin-left: 0px;
+                  margin-top: 0px;
+                  margin-bottom:0px;
+                  border: 1px black solid;
+                  border-top: none;
+                  width: 200px;
+                  height: 40px;
+                  padding: 10px;
+                  transition:0s 180s;
+                  }
+                  
+                  .townsend-harris:hover {
+                    width: 1220px;
+                    border: none;
+                  border-left: 1px black solid;
+                  transition: 1s ease-in-out;
+                  background-color: #FF7EE3;
+                  cursor:pointer;
+                  display: grid;
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: 1fr;
+                  grid-column-gap: 1040px;
+                  z-index: 2;
+                  transition:0;
+                  border-bottom: white solid 1px;
+                  
+                  }
 
 .school-name {
     width: 200px;
@@ -918,12 +1270,11 @@ transition: 1s;
     background-color: #f1f1f1;
     cursor: pointer;
     border: 1px black solid;
-    //border-radius: 5px;
     font-weight: bold;
     margin: 2px;
     margin-left: -2px;
   }
-  
+
   /* Add a light grey background on mouse-over */
   .btn:hover {
     background-color: #ddd;
@@ -940,13 +1291,13 @@ transition: 1s;
     background-image: url('/css/searchicon.png'); /* Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 200px; /* Full-width */
+    width: 500px; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
+    border: 2px solid black; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
   }
-  
+
   #myDiv {
     /* Remove default list styling */
     list-style-type: none;
@@ -974,3 +1325,3628 @@ transition: 1s;
     text-decoration: none;
   }
 
+  @media screen and (max-width:40em) and (min-width:20em){
+    body {
+      
+    }
+
+    #closable-element {
+      position: fixed;
+      background-color: #f1f1f1;
+      padding: 5px;
+      width: 230px;
+      display: block;
+    }
+    
+    #close-button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      display: block;
+  
+    }
+
+    .parent-ruler {
+    display: none;
+
+}
+  .item-ruler {
+    display: none;
+  }
+
+    .title-bronx {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-upper {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-midtown {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-lower {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-brooklyn {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-queens {
+      width: 583px;
+      border-right: none;
+    }
+    .academy-for-language {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+
+    .bronx-science {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .bronx-international {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    
+    }
+    
+    .fordham {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    
+    }
+  
+    
+    .harvey {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    
+    }
+
+    .academy-for-language:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+
+    .bronx-science:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+    
+    .bronx-international:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+    
+    
+    
+    .fordham:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+    
+    .harvey:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+
+    .central-park {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .central-park:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+
+      }
+
+      .lga {
+        width: 583px;
+      height: 50%;
+      border-right: none;
+      }
+      
+      .lga:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+
+        }
+
+        .eleanor {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .eleanor:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+        
+          .hmse {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+          }
+          
+          .hmse:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+        
+            }
+        
+          .mott {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+            
+          }
+
+          .mott:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+        
+            }
+
+            .bard {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+}
+
+.bard:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .beacon {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .beacon:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+.jacqueline {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.jacqueline:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .manhattan-bridges {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .manhattan-bridges:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+    .manhattan-village-academy {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .manhattan-village-academy:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+      }
+
+
+      .city-as-school {
+        width: 583px;
+        height: 50%;
+        border-right: none;
+      }
+      
+      .city-as-school:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+      
+        }
+
+        .leadership {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .leadership:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+
+        .lower-east {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .lower-east:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+            .millennium {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+            }
+            
+            .millennium:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+              }
+
+.stuy {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.stuy:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .academy-of-innovation {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+    }
+    
+    .academy-of-innovation:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+    }
+
+    .brooklyn-latin {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+      }
+      
+      .brooklyn-latin:hover {
+            background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+      
+      }
+
+
+      .brooklyn-tech {
+        width: 583px;
+      height: 50%;
+      border-right: none;
+        }
+        
+        .brooklyn-tech:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+        }
+
+
+        .international-hs {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .international-hs:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+
+        .it-takes-a-village {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .it-takes-a-village:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+          .forest-hill {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+            }
+            
+            .forest-hill:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+            }
+
+            .pan-american {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+              }
+              
+              .pan-american:hover {
+                background-color: initial;
+                width: 583px;
+                border: 1px solid black;
+                border-right: none;
+                border-top: none;
+              
+              }
+
+              .queens-science {
+                width: 583px;
+                height: 50%;
+                border-right: none;
+                }
+                
+                .queens-science:hover {
+                  background-color: initial;
+                  width: 583px;
+                  border: 1px solid black;
+                  border-right: none;
+                  border-top: none;
+                
+                }
+
+                .queens-tech {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .queens-tech:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+  
+
+
+                .townsend-harris {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .townsend-harris:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+.bard {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.bard:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .beacon {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .beacon:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+.jacqueline {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.jacqueline:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  }
+
+  .manhattan-bridges {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .manhattan-bridges:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+    .manhattan-village-academy {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .manhattan-village-academy:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+      }
+
+
+      .city-as-school {
+        width: 583px;
+        height: 50%;
+        border-right: none;
+      }
+      
+      .city-as-school:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+      
+        }
+
+        .leadership {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .leadership:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+
+        .lower-east {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .lower-east:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+            .millennium {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+            }
+            
+            .millennium:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+              }
+
+.stuy {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.stuy:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .academy-of-innovation {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+    }
+    
+    .academy-of-innovation:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+    }
+
+    .brooklyn-latin {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+      }
+      
+      .brooklyn-latin:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+      
+      }
+
+
+      .brooklyn-tech {
+        width: 583px;
+        height: 50%;
+        border-right: none;
+        }
+        
+        .brooklyn-tech:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+        }
+
+
+        .international-hs {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .international-hs:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+
+        .it-takes-a-village {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .it-takes-a-village:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+          .forest-hill {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+            }
+            
+            .forest-hill:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+            }
+
+            .pan-american {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+              }
+              
+              .pan-american:hover {
+                background-color: initial;
+                width: 583px;
+                border: 1px solid black;
+                border-right: none;
+                border-top: none;
+              
+              }
+
+              .queens-science {
+                width: 583px;
+                height: 50%;
+                border-right: none;
+                }
+                
+                .queens-science:hover {
+                  background-color: initial;
+                  width: 583px;
+                  border: 1px solid black;
+                  border-right: none;
+                  border-top: none;
+                
+                }
+
+                .queens-tech {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .queens-tech:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+  
+
+
+                .townsend-harris {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .townsend-harris:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+                  .bard {
+                    width: 583px;
+                    height: 50%;
+                    border-right: none;
+                  }
+                  
+                  .bard:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                    }
+                  
+                    .beacon {
+                      width: 583px;
+                      height: 50%;
+                      border-right: none;
+                    }
+                    
+                    .beacon:hover {
+                      background-color: initial;
+                      width: 583px;
+                      border: 1px solid black;
+                      border-right: none;
+                      border-top: none;
+                    
+                      }
+                  
+                  .jacqueline {
+                    width: 583px;
+                    height: 50%;
+                    border-right: none;
+                  }
+                  
+                  .jacqueline:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                    }
+                  
+                    .manhattan-bridges {
+                      width: 583px;
+                      height: 50%;
+                      border-right: none;
+                    }
+                    
+                    .manhattan-bridges:hover {
+                      background-color: initial;
+                      width: 583px;
+                      border: 1px solid black;
+                      border-right: none;
+                      border-top: none;
+                    
+                      }
+                  
+                      .manhattan-village-academy {
+                        width: 583px;
+                        height: 50%;
+                        border-right: none;
+                      }
+                      
+                      .manhattan-village-academy:hover {
+                        background-color: initial;
+                        width: 583px;
+                        border: 1px solid black;
+                        border-right: none;
+                        border-top: none;
+                      
+                        }
+                  
+                  
+                        .city-as-school {
+                          width: 583px;
+                          height: 50%;
+                          border-right: none;
+                        }
+                        
+                        .city-as-school:hover {
+                          background-color: initial;
+                          width: 583px;
+                          border: 1px solid black;
+                          border-right: none;
+                          border-top: none;
+                        
+                          }
+                  
+                          .leadership {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                          }
+                          
+                          .leadership:hover {
+                            background-color: initial;
+                            width: 583px;
+                            border: 1px solid black;
+                            border-right: none;
+                            border-top: none;
+                          
+                            }
+                  
+                  
+                          .lower-east {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                          }
+                          
+                          .lower-east:hover {
+                            background-color: initial;
+                            width: 583px;
+                            border: 1px solid black;
+                            border-right: none;
+                            border-top: none;
+                          
+                            }
+                  
+                              .millennium {
+                                width: 583px;
+                                height: 50%;
+                                border-right: none;
+                              }
+                              
+                              .millennium:hover {
+                                background-color: initial;
+                                width: 583px;
+                                border: 1px solid black;
+                                border-right: none;
+                                border-top: none;
+                              
+                                }
+                  
+                  .stuy {
+                    width: 583px;
+                    height: 50%;
+                    border-right: none;
+                  }
+                  
+                  .stuy:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                    }
+                  
+                    .academy-of-innovation {
+                      width: 583px;
+                      height: 50%;
+                      border-right: none;
+                      }
+                      
+                      .academy-of-innovation:hover {
+                        background-color: initial;
+                        width: 583px;
+                        border: 1px solid black;
+                        border-right: none;
+                        border-top: none;
+                      
+                      }
+                  
+                      .brooklyn-latin {
+                        width: 583px;
+                        height: 50%;
+                        border-right: none;
+                        }
+                        
+                        .brooklyn-latin:hover {
+                          background-color: initial;
+                          width: 583px;
+                          border: 1px solid black;
+                          border-right: none;
+                          border-top: none;
+                        
+                        }
+                  
+                  
+                        .brooklyn-tech {
+                          width: 583px;
+                          height: 50%;
+                          border-right: none;
+                          }
+                          
+                          .brooklyn-tech:hover {
+                            background-color: initial;
+                            width: 583px;
+                            border: 1px solid black;
+                            border-right: none;
+                            border-top: none;
+                          
+                          }
+                  
+                  
+                          .international-hs {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                            }
+                            
+                            .international-hs:hover {
+                              background-color: initial;
+                              width: 583px;
+                              border: 1px solid black;
+                              border-right: none;
+                              border-top: none;
+                            
+                            }
+                  
+                  
+                          .it-takes-a-village {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                            }
+                            
+                            .it-takes-a-village:hover {
+                              background-color: initial;
+                              width: 583px;
+                              border: 1px solid black;
+                              border-right: none;
+                              border-top: none;
+                            
+                            }
+                  
+                            .forest-hill {
+                              width: 583px;
+                              height: 50%;
+                              border-right: none;
+                              }
+                              
+                              .forest-hill:hover {
+                                background-color: initial;
+                                width: 583px;
+                                border: 1px solid black;
+                                border-right: none;
+                                border-top: none;
+                              
+                              }
+                  
+                              .pan-american {
+                                width: 583px;
+                                height: 50%;
+                                border-right: none;
+                                }
+                                
+                                .pan-american:hover {
+                                  background-color: initial;
+                                  width: 583px;
+                                  border: 1px solid black;
+                                  border-right: none;
+                                  border-top: none;
+                                
+                                }
+                  
+                                .queens-science {
+                                  width: 583px;
+                                  height: 50%;
+                                  border-right: none;
+                                  }
+                                  
+                                  .queens-science:hover {
+                                    background-color: initial;
+                                    width: 583px;
+                                    border: 1px solid black;
+                                    border-right: none;
+                                    border-top: none;
+                                  
+                                  }
+                  
+                                  .queens-tech {
+                                    width: 583px;
+                                    height: 50%;
+                                    border-right: none;
+                                    }
+                                    
+                                    .queens-tech:hover {
+                                      background-color: initial;
+                                      width: 583px;
+                                      border: 1px solid black;
+                                      border-right: none;
+                                      border-top: none;
+                                    
+                                    }
+                    
+                  
+                  
+                                  .townsend-harris {
+                                    width: 583px;
+                                    height: 50%;
+                                    border-right: none;
+                                    }
+                                    
+                                    .townsend-harris:hover {
+                                      background-color: initial;
+                                      width: 583px;
+                                      border: 1px solid black;
+                                      border-right: none;
+                                      border-top: none;
+                                    
+                                    }
+                  
+          
+
+    .school-name {
+      width: 500px;
+      font-size: 13pt;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .parent-categories {
+    border-right: none;
+    }
+
+    .parent-heading {
+      width: 586px;
+    }
+
+      .btn {
+        font-size: 12pt;
+        text-align: left;
+        border: none;
+        outline: none;
+        padding: 5px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        border: 1px black solid;
+        font-weight: bold;
+        margin: 3px;
+        margin-left: -2px;
+        display: grid;
+        width: 100px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+      }
+
+      h4 {
+        font-size: 12pt;
+      }
+
+      .parent-categories {
+        width: 580px;
+      }
+
+.parent-ruler {
+
+
+
+body {
+font-family: 'Roboto', sans-serif;
+margin: -1px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+h2 {
+    font-size: 12pt; 
+}
+
+h4 {
+    font-size: 10pt;
+}
+
+
+.parent-heading {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    background: black;
+    color: white;
+    padding: 10px;
+    }
+
+.parent-categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    color: black;
+    padding-left: 10px;
+    border: 1px black solid;
+    border-top: none;
+    height: 60%;
+    width: 100%;
+    margin-bottom: -19px;
+    }
+
+.parent-sub-categories {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    color: black;
+    padding: 10px;
+    }
+
+.parent-schools {
+    display: grid;
+    grid-template-columns: repeat(1, 30fr);
+    grid-template-rows: 30fr;
+    grid-column-gap: 0px;
+    color: black;
+    margin-top: -1px;
+    width: 20%;
+}
+
+.parent-ruler {
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-columns: 211px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  color: black;
+  background: white;
+  padding-left: 10px;
+  border: 1px black solid;
+  margin-top: 10px;
+  padding: 10px;
+  height: 20px;
+  bottom: 10px;
+  width: 100%;
+  margin-bottom: -15px;
+
+  }
+
+  .item-ruler {
+    border-right: 1px solid black;
+    text-align: center;
+    height: 20px;
+    margin-top:-10px;
+
+  }
+  
+
+.title-bronx {
+    background-color: #00C57E;
+    border: 1px black solid;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title-upper {
+  background-color: #ECE200;
+  border: 1px black solid;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title-midtown {
+  background-color: #C190FF;
+  border: 1px black solid;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title-lower {
+  background-color: #FFAB6F;
+  border: 1px black solid;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title-brooklyn {
+  background-color: #6CD1F1;
+  border: 1px black solid;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.title-queens {
+  background-color: #FF7EE3;
+  border: 1px black solid;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+
+.checkbox-bronx {
+    width: 5px;
+    height: 40px;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: #00C57E;
+}
+
+.checkbox-bronx-tall {
+    width: 5px;
+    height: 60px;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: #00C57E;
+}
+
+.checkbox-bronx-title {
+    width: 5px;
+    height: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    background-color: #00C57E;
+}
+
+img {
+  z-index: 3;
+  width: 50%;
+}
+
+.item1 {
+    text-align: left;
+    margin-bottom: -50px;
+    margin-top: -10px;
+}
+
+.item2 {
+    text-align: left;
+    margin-bottom: -50px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.academy-for-language {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+
+  
+}
+
+.academy-for-language {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+
+  
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+}
+
+.bronx-science {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+
+}
+
+.bronx-international {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+
+}
+
+.fordham {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+  border-top: white solid 1px;
+
+}
+
+
+.blank {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border-top: none;
+  width: 200px;
+  height: 10px;
+  padding: 10px;
+  transition:0s 180s;
+  border-top: white solid 1px;
+
+}
+
+.harvey {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+
+}
+
+.appear {
+  transition: 1s;
+
+}
+
+.hide {
+  display: none;
+  transition: 1s;
+margin: auto;
+}
+
+    
+.appear:hover + .hide {
+  display: block;
+transition: 1s;
+}
+
+
+.bronx-science:hover {
+  width: 355px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #00C57E;
+  cursor:pointer;
+  transition:0;
+  border-bottom: white solid 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 170px;
+  z-index: 2;
+}
+
+.bronx-international:hover {
+  width: 645px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #00C57E;
+  cursor:pointer;
+  transition:0;
+  border-bottom: white solid 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 460px;
+  z-index: 2;
+}
+
+
+
+.fordham:hover {
+  width: 425px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #00C57E;
+  cursor:pointer;
+  transition:0;
+  border-bottom: white solid 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 235px;
+  z-index: 2;
+}
+
+.harvey:hover {
+  width: 650px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #00C57E;
+  cursor:pointer;
+  transition:0;
+  border-bottom: white solid 1px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 470px;
+  z-index: 2;
+}
+
+.item-upper {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+}
+
+.eleanor {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+}
+
+.eleanor:hover {
+  width: 1000px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #ECE200;
+  cursor:pointer;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 820px;
+  z-index: 2;
+  transition:0;
+  border-bottom: white solid 1px;
+
+  }
+
+  .hmse {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    border: 1px black solid;
+    border-top: none;
+    width: 200px;
+    padding: 10px;
+    transition:0s 180s;
+    height: 40px;
+  }
+  
+  .hmse:hover {
+    width: 1100px;
+    grid-column-gap: 920px;
+    border: none;
+    border-left: 1px black solid;
+    transition: 1s ease-in-out;
+    background-color: #ECE200;
+    cursor:pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    z-index: 2;
+    transition:0;
+    border-bottom: white solid 1px;
+
+    }
+
+  .mott {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    border: 1px black solid;
+    border-top: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    transition:0s 180s;
+    
+  }
+  
+  .mott:hover {
+    width: 560px;
+    border: none;
+    border-left: 1px black solid;
+    transition: 1s ease-in-out;
+    background-color: #ECE200;
+    cursor:pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 380px;
+    z-index: 2;
+    transition:0;
+    border-bottom: white solid 1px;
+
+    }
+  
+    .central-park {
+      text-align: left;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom:0px;
+      border: 1px black solid;
+      border-top: none;
+      width: 200px;
+      height: 40px;
+      padding: 10px;
+      transition:0s 180s;
+    }
+    
+    .central-park:hover {
+      width: 570px;
+      border: none;
+      border-left: 1px black solid;
+      transition: 1s ease-in-out;
+      background-color: #ECE200;
+      cursor:pointer;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 390px;
+      z-index: 2;
+      transition:0;
+      border-bottom: white solid 1px;
+
+      }
+
+      .lga {
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+        border: 1px black solid;
+        border-top: none;
+        width: 200px;
+        padding: 10px;
+        transition:0s 180s;
+        height: 40px;
+      }
+      
+      .lga:hover {
+        width: 1015px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #ECE200;
+        cursor:pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 835px;
+        z-index: 2;
+        transition:0;
+          border-bottom: white solid 1px;
+
+        }
+      
+
+
+.item-upper-tall {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 75px;
+  padding: 10px;
+}
+
+.item-upper-short {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+}
+
+
+
+.item-upper-short:hover {
+  width: 600px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #ECE200;
+  cursor:pointer;
+}
+
+.item-upper:hover {
+  width: 600px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #ECE200;
+  cursor:pointer;
+}
+
+.item-upper-tall:hover {
+  width: 600px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #ECE200;
+  cursor:pointer;
+}
+
+.bard {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+}
+
+.bard:hover {
+  width: 1150px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #C190FF;
+  cursor:pointer;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 970px;
+  z-index: 2;
+  transition:0;
+  border-bottom: white solid 1px;
+
+  }
+
+  .beacon {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    border: 1px black solid;
+    border-top: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    transition:0s 180s;
+  }
+  
+  .beacon:hover {
+    width: 1030px;
+    border: none;
+    border-left: 1px black solid;
+    transition: 1s ease-in-out;
+    background-color: #C190FF;
+    cursor:pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 850px;
+    z-index: 2;
+    transition:0;
+    border-bottom: white solid 1px;
+  
+    }
+
+.jacqueline {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+}
+
+.jacqueline:hover {
+  width: 600px;
+  grid-column-gap: 420px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #C190FF;
+  cursor:pointer;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  z-index: 2;
+  transition:0;
+  border-bottom: white solid 1px;
+
+  }
+
+  .manhattan-bridges {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    border: 1px black solid;
+    border-top: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    transition:0s 180s;
+  }
+  
+  .manhattan-bridges:hover {
+    width: 430px;
+    border: none;
+    border-left: 1px black solid;
+    transition: 1s ease-in-out;
+    background-color: #C190FF;
+    cursor:pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 250px;
+    z-index: 2;
+    transition:0;
+    border-bottom: white solid 1px;
+  
+    }
+
+    .manhattan-village-academy {
+      text-align: left;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom:0px;
+      border: 1px black solid;
+      border-top: none;
+      width: 200px;
+      height: 40px;
+      padding: 10px;
+      transition:0s 180s;
+    }
+    
+    .manhattan-village-academy:hover {
+      width: 720px;
+      border: none;
+      border-left: 1px black solid;
+      transition: 1s ease-in-out;
+      background-color: #C190FF;
+      cursor:pointer;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 540px;
+      z-index: 2;
+      transition:0;
+      border-bottom: white solid 1px;
+    
+      }
+
+
+      .city-as-school {
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+        border: 1px black solid;
+        border-top: none;
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+        transition:0s 180s;
+      }
+      
+      .city-as-school:hover {
+        width: 750px;
+        grid-column-gap: 570px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #FFAB6F;
+        cursor:pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        z-index: 2;
+        transition:0;
+        border-bottom: white solid 1px;
+      
+        }
+
+        .leadership {
+          text-align: left;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom:0px;
+          border: 1px black solid;
+          border-top: none;
+          width: 200px;
+          height: 40px;
+          padding: 10px;
+          transition:0s 180s;
+        }
+        
+        .leadership:hover {
+          width: 600px;
+          border: none;
+          border-left: 1px black solid;
+          transition: 1s ease-in-out;
+          background-color: #FFAB6F;
+          cursor:pointer;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 420px;
+          z-index: 2;
+          transition:0;
+          border-bottom: white solid 1px;
+        
+          }
+
+
+        .lower-east {
+          text-align: left;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom:0px;
+          border: 1px black solid;
+          border-top: none;
+          width: 200px;
+          height: 40px;
+          padding: 10px;
+          transition:0s 180s;
+        }
+        
+        .lower-east:hover {
+          width: 570px;
+          border: none;
+          border-left: 1px black solid;
+          transition: 1s ease-in-out;
+          background-color: #FFAB6F;
+          cursor:pointer;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 390px;
+          z-index: 2;
+          transition:0;
+          border-bottom: white solid 1px;
+        
+          }
+
+            .millennium {
+              text-align: left;
+              margin-left: 0px;
+              margin-top: 0px;
+              margin-bottom:0px;
+              border: 1px black solid;
+              border-top: none;
+              width: 200px;
+              height: 40px;
+              padding: 10px;
+              transition:0s 180s;
+            }
+            
+            .millennium:hover {
+              width: 930px;
+              border: none;
+              border-left: 1px black solid;
+              transition: 1s ease-in-out;
+              background-color: #FFAB6F;
+              cursor:pointer;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-template-rows: 1fr;
+              grid-column-gap: 750px;
+              z-index: 2;
+              transition:0;
+              border-bottom: white solid 1px;
+            
+              }
+
+.stuy {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  border: 1px black solid;
+  border-top: none;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  transition:0s 180s;
+}
+
+.stuy:hover {
+  width: 1450px;
+  border: none;
+  border-left: 1px black solid;
+  transition: 1s ease-in-out;
+  background-color: #FFAB6F;
+  cursor:pointer;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1270px;
+  z-index: 2;
+  transition:0;
+  border-bottom: white solid 1px;
+
+  }
+
+  .academy-of-innovation {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    border: 1px black solid;
+    border-top: none;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    transition:0s 180s;
+    }
+    
+    .academy-of-innovation:hover {
+    width: 466px;
+    border: none;
+    border-left: 1px black solid;
+    transition: 1s ease-in-out;
+    background-color: #6CD1F1;
+    cursor:pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 284px;
+    z-index: 2;
+    transition:0;
+    border-bottom: white solid 1px;
+    
+    }
+
+    .brooklyn-latin {
+      text-align: left;
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-bottom:0px;
+      border: 1px black solid;
+      border-top: none;
+      width: 200px;
+      height: 40px;
+      padding: 10px;
+      transition:0s 180s;
+      }
+      
+      .brooklyn-latin:hover {
+      width: 1050px;
+      border: none;
+      border-left: 1px black solid;
+      transition: 1s ease-in-out;
+      background-color: #6CD1F1;
+      cursor:pointer;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 870px;
+      z-index: 2;
+      transition:0;
+      border-bottom: white solid 1px;
+      
+      }
+
+
+      .brooklyn-tech {
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom:0px;
+        border: 1px black solid;
+        border-top: none;
+        width: 200px;
+        height: 40px;
+        padding: 10px;
+        transition:0s 180s;
+        }
+        
+        .brooklyn-tech:hover {
+        width: 1130px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #6CD1F1;
+        cursor:pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 950px;
+        z-index: 2;
+        transition:0;
+        border-bottom: white solid 1px;
+        
+        }
+
+
+        .international-hs {
+          text-align: left;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom:0px;
+          border: 1px black solid;
+          border-top: none;
+          width: 200px;
+          height: 40px;
+          padding: 10px;
+          transition:0s 180s;
+          }
+          
+          .international-hs:hover {
+         width: 300px;
+        border: none;
+        border-left: 1px black solid;
+        transition: 1s ease-in-out;
+        background-color: #6CD1F1;
+        cursor:pointer;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 120px;
+        z-index: 2;
+        transition:0;
+        border-bottom: white solid 1px;
+          
+          }
+
+
+        .it-takes-a-village {
+          text-align: left;
+          margin-left: 0px;
+          margin-top: 0px;
+          margin-bottom:0px;
+          border: 1px black solid;
+          border-top: none;
+          width: 200px;
+          height: 40px;
+          padding: 10px;
+          transition:0s 180s;
+          }
+          
+          .it-takes-a-village:hover {
+          width: 355px;
+          border: none;
+          border-left: 1px black solid;
+          transition: 1s ease-in-out;
+          background-color: #6CD1F1;
+          cursor:pointer;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 175px;
+          z-index: 2;
+          transition:0;
+          border-bottom: white solid 1px;
+          
+          }
+
+          .forest-hill {
+            text-align: left;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-bottom:0px;
+            border: 1px black solid;
+            border-top: none;
+            width: 200px;
+            height: 40px;
+            padding: 10px;
+            transition:0s 180s;
+            }
+            
+            .forest-hill:hover {
+            border: none;
+            border-left: 1px black solid;
+            transition: 1s ease-in-out;
+            background-color: #FF7EE3;
+            cursor:pointer;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            z-index: 2;
+            transition:0;
+            border-bottom: white solid 1px;
+            width: 748px;
+            grid-column-gap: 570px;
+            
+            }
+
+            .pan-american {
+              text-align: left;
+              margin-left: 0px;
+              margin-top: 0px;
+              margin-bottom:0px;
+              border: 1px black solid;
+              border-top: none;
+              width: 200px;
+              height: 40px;
+              padding: 10px;
+              transition:0s 180s;
+              }
+              
+              .pan-american:hover {
+              width: 345px;
+              border: none;
+              border-left: 1px black solid;
+              transition: 1s ease-in-out;
+              background-color: #FF7EE3;
+              cursor:pointer;
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              grid-template-rows: 1fr;
+              grid-column-gap: 175px;
+              z-index: 2;
+              transition:0;
+              border-bottom: white solid 1px;
+              
+              }
+
+              .queens-science {
+                text-align: left;
+                margin-left: 0px;
+                margin-top: 0px;
+                margin-bottom:0px;
+                border: 1px black solid;
+                border-top: none;
+                width: 200px;
+                height: 40px;
+                padding: 10px;
+                transition:0s 180s;
+                }
+                
+                .queens-science:hover {
+                border: none;
+                border-left: 1px black solid;
+                transition: 1s ease-in-out;
+                background-color: #FF7EE3;
+                cursor:pointer;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+                width: 1160px;
+                grid-column-gap: 920px;                
+                z-index: 2;
+                transition:0;
+                border-bottom: white solid 1px;
+                
+                }
+
+                .queens-tech {
+                  text-align: left;
+                  margin-left: 0px;
+                  margin-top: 0px;
+                  margin-bottom:0px;
+                  border: 1px black solid;
+                  border-top: none;
+                  width: 200px;
+                  height: 40px;
+                  padding: 10px;
+                  transition:0s 180s;
+                  }
+                  
+                  .queens-tech:hover {
+                  border: none;
+                  border-left: 1px black solid;
+                  transition: 1s ease-in-out;
+                  background-color: #FF7EE3;
+                  cursor:pointer;
+                  display: grid;
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: 1fr;
+                  width: 630px;
+                  grid-column-gap: 450px;
+                  z-index: 2;
+                  transition:0;
+                  border-bottom: white solid 1px;
+                  
+                  }
+  
+
+
+                .townsend-harris {
+                  text-align: left;
+                  margin-left: 0px;
+                  margin-top: 0px;
+                  margin-bottom:0px;
+                  border: 1px black solid;
+                  border-top: none;
+                  width: 200px;
+                  height: 40px;
+                  padding: 10px;
+                  transition:0s 180s;
+                  }
+                  
+                  .townsend-harris:hover {
+                    width: 1150px;
+                    border: none;
+                  border-left: 1px black solid;
+                  transition: 1s ease-in-out;
+                  background-color: #FF7EE3;
+                  cursor:pointer;
+                  display: grid;
+                  grid-template-columns: repeat(2, 1fr);
+                  grid-template-rows: 1fr;
+                  grid-column-gap: 175px;
+                  z-index: 2;
+                  transition:0;
+                  border-bottom: white solid 1px;
+                  
+                  }
+
+.school-name {
+    width: 200px;
+    font-weight:500;
+    transition:0s 180s;
+
+}
+
+.green {
+    background-color: ;
+}
+
+.container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    text-align: left;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    font-size: 10pt;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border: 1px black solid;
+    font-weight: bold;
+    margin: 2px;
+    margin-left: -2px;
+  }
+
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 500px; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 2px solid black; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+
+  #myDiv {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+  a,clicked {
+    color: black;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:40em) and (min-width:20em){
+    body {
+    }
+
+    .title-bronx {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-upper {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-midtown {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-lower {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-brooklyn {
+      width: 583px;
+      border-right: none;
+    }
+
+    .title-queens {
+      width: 583px;
+      border-right: none;
+    }
+    .academy-for-language {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+
+    .bronx-science {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .bronx-international {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    
+    }
+    
+    .fordham {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    
+    }
+  
+    
+    .harvey {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    
+    }
+
+ 
+
+    .bronx-science:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+    
+    .bronx-international:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+    
+    
+    
+    .fordham:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+    
+    .harvey:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    }
+
+    .central-park {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .central-park:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+
+      }
+
+      .lga {
+        width: 583px;
+      height: 50%;
+      border-right: none;
+      }
+      
+      .lga:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+
+        }
+
+        .eleanor {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .eleanor:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+        
+          .hmse {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+          }
+          
+          .hmse:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+        
+            }
+        
+          .mott {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+            
+          }
+
+          .mott:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+        
+            }
+
+            .bard {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+}
+
+.bard:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .beacon {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .beacon:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+.jacqueline {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.jacqueline:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .manhattan-bridges {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .manhattan-bridges:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+    .manhattan-village-academy {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .manhattan-village-academy:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+      }
+
+
+      .city-as-school {
+        width: 583px;
+        height: 50%;
+        border-right: none;
+      }
+      
+      .city-as-school:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+      
+        }
+
+        .leadership {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .leadership:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+
+        .lower-east {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .lower-east:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+            .millennium {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+            }
+            
+            .millennium:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+              }
+
+.stuy {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.stuy:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .academy-of-innovation {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+    }
+    
+    .academy-of-innovation:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+    }
+
+    .brooklyn-latin {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+      }
+      
+      .brooklyn-latin:hover {
+            background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+      
+      }
+
+
+      .brooklyn-tech {
+        width: 583px;
+      height: 50%;
+      border-right: none;
+        }
+        
+        .brooklyn-tech:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+        }
+
+
+        .international-hs {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .international-hs:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+
+        .it-takes-a-village {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .it-takes-a-village:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+          .forest-hill {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+            }
+            
+            .forest-hill:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+            }
+
+            .pan-american {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+              }
+              
+              .pan-american:hover {
+                background-color: initial;
+                width: 583px;
+                border: 1px solid black;
+                border-right: none;
+                border-top: none;
+              
+              }
+
+              .queens-science {
+                width: 583px;
+                height: 50%;
+                border-right: none;
+                }
+                
+                .queens-science:hover {
+                  background-color: initial;
+                  width: 583px;
+                  border: 1px solid black;
+                  border-right: none;
+                  border-top: none;
+                
+                }
+
+                .queens-tech {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .queens-tech:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+  
+
+
+                .townsend-harris {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .townsend-harris:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+.bard {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.bard:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .beacon {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .beacon:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+.jacqueline {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.jacqueline:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  }
+
+  .manhattan-bridges {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+  }
+  
+  .manhattan-bridges:hover {
+    background-color: initial;
+    width: 583px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+  
+    }
+
+    .manhattan-village-academy {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+    }
+    
+    .manhattan-village-academy:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+      }
+
+
+      .city-as-school {
+        width: 583px;
+        height: 50%;
+        border-right: none;
+      }
+      
+      .city-as-school:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+      
+        }
+
+        .leadership {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .leadership:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+
+        .lower-east {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+        }
+        
+        .lower-east:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+          }
+
+            .millennium {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+            }
+            
+            .millennium:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+              }
+
+.stuy {
+  width: 583px;
+  height: 50%;
+  border-right: none;
+}
+
+.stuy:hover {
+  background-color: initial;
+  width: 583px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+
+  }
+
+  .academy-of-innovation {
+    width: 583px;
+    height: 50%;
+    border-right: none;
+    }
+    
+    .academy-of-innovation:hover {
+      background-color: initial;
+      width: 583px;
+      border: 1px solid black;
+      border-right: none;
+      border-top: none;
+    
+    }
+
+    .brooklyn-latin {
+      width: 583px;
+      height: 50%;
+      border-right: none;
+      }
+      
+      .brooklyn-latin:hover {
+        background-color: initial;
+        width: 583px;
+        border: 1px solid black;
+        border-right: none;
+        border-top: none;
+      
+      }
+
+
+      .brooklyn-tech {
+        width: 583px;
+        height: 50%;
+        border-right: none;
+        }
+        
+        .brooklyn-tech:hover {
+          background-color: initial;
+          width: 583px;
+          border: 1px solid black;
+          border-right: none;
+          border-top: none;
+        
+        }
+
+
+        .international-hs {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .international-hs:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+
+        .it-takes-a-village {
+          width: 583px;
+          height: 50%;
+          border-right: none;
+          }
+          
+          .it-takes-a-village:hover {
+            background-color: initial;
+            width: 583px;
+            border: 1px solid black;
+            border-right: none;
+            border-top: none;
+          
+          }
+
+          .forest-hill {
+            width: 583px;
+            height: 50%;
+            border-right: none;
+            }
+            
+            .forest-hill:hover {
+              background-color: initial;
+              width: 583px;
+              border: 1px solid black;
+              border-right: none;
+              border-top: none;
+            
+            }
+
+            .pan-american {
+              width: 583px;
+              height: 50%;
+              border-right: none;
+              }
+              
+              .pan-american:hover {
+                background-color: initial;
+                width: 583px;
+                border: 1px solid black;
+                border-right: none;
+                border-top: none;
+              
+              }
+
+              .queens-science {
+                width: 583px;
+                height: 50%;
+                border-right: none;
+                }
+                
+                .queens-science:hover {
+                  background-color: initial;
+                  width: 583px;
+                  border: 1px solid black;
+                  border-right: none;
+                  border-top: none;
+                
+                }
+
+                .queens-tech {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .queens-tech:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+  
+
+
+                .townsend-harris {
+                  width: 583px;
+                  height: 50%;
+                  border-right: none;
+                  }
+                  
+                  .townsend-harris:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                  }
+                  .bard {
+                    width: 583px;
+                    height: 50%;
+                    border-right: none;
+                  }
+                  
+                  .bard:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                    }
+                  
+                    .beacon {
+                      width: 583px;
+                      height: 50%;
+                      border-right: none;
+                    }
+                    
+                    .beacon:hover {
+                      background-color: initial;
+                      width: 583px;
+                      border: 1px solid black;
+                      border-right: none;
+                      border-top: none;
+                    
+                      }
+                  
+                  .jacqueline {
+                    width: 583px;
+                    height: 50%;
+                    border-right: none;
+                  }
+                  
+                  .jacqueline:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                    }
+                  
+                    .manhattan-bridges {
+                      width: 583px;
+                      height: 50%;
+                      border-right: none;
+                    }
+                    
+                    .manhattan-bridges:hover {
+                      background-color: initial;
+                      width: 583px;
+                      border: 1px solid black;
+                      border-right: none;
+                      border-top: none;
+                    
+                      }
+                  
+                      .manhattan-village-academy {
+                        width: 583px;
+                        height: 50%;
+                        border-right: none;
+                      }
+                      
+                      .manhattan-village-academy:hover {
+                        background-color: initial;
+                        width: 583px;
+                        border: 1px solid black;
+                        border-right: none;
+                        border-top: none;
+                      
+                        }
+                  
+                  
+                        .city-as-school {
+                          width: 583px;
+                          height: 50%;
+                          border-right: none;
+                        }
+                        
+                        .city-as-school:hover {
+                          background-color: initial;
+                          width: 583px;
+                          border: 1px solid black;
+                          border-right: none;
+                          border-top: none;
+                        
+                          }
+                  
+                          .leadership {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                          }
+                          
+                          .leadership:hover {
+                            background-color: initial;
+                            width: 583px;
+                            border: 1px solid black;
+                            border-right: none;
+                            border-top: none;
+                          
+                            }
+                  
+                  
+                          .lower-east {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                          }
+                          
+                          .lower-east:hover {
+                            background-color: initial;
+                            width: 583px;
+                            border: 1px solid black;
+                            border-right: none;
+                            border-top: none;
+                          
+                            }
+                  
+                              .millennium {
+                                width: 583px;
+                                height: 50%;
+                                border-right: none;
+                              }
+                              
+                              .millennium:hover {
+                                background-color: initial;
+                                width: 583px;
+                                border: 1px solid black;
+                                border-right: none;
+                                border-top: none;
+                              
+                                }
+                  
+                  .stuy {
+                    width: 583px;
+                    height: 50%;
+                    border-right: none;
+                  }
+                  
+                  .stuy:hover {
+                    background-color: initial;
+                    width: 583px;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-top: none;
+                  
+                    }
+                  
+                    .academy-of-innovation {
+                      width: 583px;
+                      height: 50%;
+                      border-right: none;
+                      }
+                      
+                      .academy-of-innovation:hover {
+                        background-color: initial;
+                        width: 583px;
+                        border: 1px solid black;
+                        border-right: none;
+                        border-top: none;
+                      
+                      }
+                  
+                      .brooklyn-latin {
+                        width: 583px;
+                        height: 50%;
+                        border-right: none;
+                        }
+                        
+                        .brooklyn-latin:hover {
+                          background-color: initial;
+                          width: 583px;
+                          border: 1px solid black;
+                          border-right: none;
+                          border-top: none;
+                        
+                        }
+                  
+                  
+                        .brooklyn-tech {
+                          width: 583px;
+                          height: 50%;
+                          border-right: none;
+                          }
+                          
+                          .brooklyn-tech:hover {
+                            background-color: initial;
+                            width: 583px;
+                            border: 1px solid black;
+                            border-right: none;
+                            border-top: none;
+                          
+                          }
+                  
+                  
+                          .international-hs {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                            }
+                            
+                            .international-hs:hover {
+                              background-color: initial;
+                              width: 583px;
+                              border: 1px solid black;
+                              border-right: none;
+                              border-top: none;
+                            
+                            }
+                  
+                  
+                          .it-takes-a-village {
+                            width: 583px;
+                            height: 50%;
+                            border-right: none;
+                            }
+                            
+                            .it-takes-a-village:hover {
+                              background-color: initial;
+                              width: 583px;
+                              border: 1px solid black;
+                              border-right: none;
+                              border-top: none;
+                            
+                            }
+                  
+                            .forest-hill {
+                              width: 583px;
+                              height: 50%;
+                              border-right: none;
+                              }
+                              
+                              .forest-hill:hover {
+                                background-color: initial;
+                                width: 583px;
+                                border: 1px solid black;
+                                border-right: none;
+                                border-top: none;
+                              
+                              }
+                  
+                              .pan-american {
+                                width: 583px;
+                                height: 50%;
+                                border-right: none;
+                                }
+                                
+                                .pan-american:hover {
+                                  background-color: initial;
+                                  width: 583px;
+                                  border: 1px solid black;
+                                  border-right: none;
+                                  border-top: none;
+                                
+                                }
+                  
+                                .queens-science {
+                                  width: 583px;
+                                  height: 50%;
+                                  border-right: none;
+                                  }
+                                  
+                                  .queens-science:hover {
+                                    background-color: initial;
+                                    width: 583px;
+                                    border: 1px solid black;
+                                    border-right: none;
+                                    border-top: none;
+                                  
+                                  }
+                  
+                                  .queens-tech {
+                                    width: 583px;
+                                    height: 50%;
+                                    border-right: none;
+                                    }
+                                    
+                                    .queens-tech:hover {
+                                      background-color: initial;
+                                      width: 583px;
+                                      border: 1px solid black;
+                                      border-right: none;
+                                      border-top: none;
+                                    
+                                    }
+                    
+                  
+                  
+                                  .townsend-harris {
+                                    width: 583px;
+                                    height: 50%;
+                                    border-right: none;
+                                    }
+                                    
+                                    .townsend-harris:hover {
+                                      background-color: initial;
+                                      width: 583px;
+                                      border: 1px solid black;
+                                      border-right: none;
+                                      border-top: none;
+                                    
+                                    }
+                  
+          
+
+    .school-name {
+      width: 500px;
+      font-size: 13pt;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .parent-categories {
+    border-right: none;
+    }
+
+    .parent-heading {
+      width: 586px;
+    }
+
+      .btn {
+        font-size: 12pt;
+        text-align: left;
+        border: none;
+        outline: none;
+        padding: 5px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        border: 1px black solid;
+        font-weight: bold;
+        margin: 3px;
+        margin-left: -2px;
+        display: grid;
+        width: 100px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+      }
+
+      h4 {
+        font-size: 12pt;
+      }
+
+      .parent-categories {
+        width: 580px;
+      }
+
+
+  }

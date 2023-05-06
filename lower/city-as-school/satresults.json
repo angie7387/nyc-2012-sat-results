@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "02M560",
+    "schoolname": "CITY AS SCHOOL",
+    "location": "Lower Manhattan",
+    "graduates": "37%",
+    "asian": 4.3,
+    "black": 36.4,
+    "hispanic": 40.9,
+    "multiracial": 1.8,
+    "nativeamerican": 0.3,
+    "white": 16.3,
+    "poverty": "69.90%",
+    "reading": 498,
+    "math": 440,
+    "writing": 477,
+    "total": 1415
   }
 
 ]

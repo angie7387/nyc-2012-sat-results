@@ -1,112 +1,133 @@
 body {
-font-family: 'Roboto', sans-serif;
-margin: 0;
-background-color: #00C57E;
-font-size: 11pt;
-}
-
-.parent-heading {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 0px;
-  background: black;
-  color: white;
-  padding: 10px;
-  padding-left: 20px;
-  margin: -10;
-  text-align: left;
-
-  }
-
-  .rightalign {
-    text-align: right;
-  }
-
-.parent-sub-categories {
-  display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: 2fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  color: black;
-  width: 100%;
-  padding: 10px;
-  margin-top: -60px;
-  margin-left: 50px;
-    }
-
-.racial-demographics {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-  color: black;
-  margin-top: -30px;
-}
-
-.box {
-  border: 1pt black solid;
-  height: 100px;
-  width: 85%;
-  margin: auto;
-  margin-top: 20px;
-  margin-left: 50px;
-  padding-left: 20px;
-  padding-right: -40px;
-
-}
-
-h1 {
-    font-weight: 500;
-    font-size: 14pt;
-}
-
-h2 {
-    width: 1200px;
-    font-weight: 900;
-    font-size: 80pt; 
-    line-height: 67pt;
-    text-align: left;
-    margin-left: 50px;
-    margin-top: 80px;
-}
-
-h3 {
-    font-size: 105pt;
-    font-weight: 900;
-    margin: 0;
-    text-align: left;
-    letter-spacing: -2pt;
-    font-family: 'Azeret Mono', monospace;}
-
-h4 {
-  font-size: 40pt;
-  margin-top: 30px;
-  margin-bottom: 0;
-  text-align: left;
-}
-
-h5 {
+  font-family: 'Roboto', sans-serif;
+  margin: -1px;
+  background-color: #00C57E;
   font-size: 11pt;
-  margin-top: 0;
-  font-weight:400;
-  text-align: left;
-
-}
-
-p {
-  margin-left: 470pt;
-  margin-top: -23pt;
-}
-
-#schoolname {
-  margin: 20px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
+  width: 100.5%;
+  }
+  
+  .parent-heading {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    background: black;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    margin: -10;
+    text-align: left;
+  
+    }
+  
+    img {
+      z-index: 3;
+      width: 390px;
+      background-color: black;
+      padding: 1%;
+      padding-left: 35%;
+    }
+  
+    .rightalign {
+      text-align: right;
+    }
+  
+  .parent-sub-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    margin-top: -60px;
+    margin-left: -10px;
+      }
+  
+  .racial-demographics {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    color: black;
+    margin-top: -30px;
+  }
+  
+  .box {
+    border: 1pt black solid;
+    height: 100px;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: -40px;
+  
+  }
+  
+  .background {
+    background-color: black;
+    width: 100%;
+  }
+  
+  h1 {
+      font-weight: 500;
+      font-size: 14pt;
+  }
+  
+  
+  h2 {
+      width: 1200px;
+      font-weight: 900;
+      font-size: 80pt; 
+      line-height: 67pt;
+      text-align: left;
+      padding-top: -60px;
+  }
+  
+  h2 {
+      font-size: 12pt; 
+      margin-top: 0;
+      margin-bottom: 30px;
+  }
+  
+  h3 {
+      font-size: 15pt;
+      font-weight: 700;
+      margin: 0;
+      margin-top: 10px;
+      text-align: left;
+      margin-left: 0px;
+  }
+  
+  h4 {
+    font-size: 40pt;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  h5 {
+    font-size: 11pt;
+    margin-top: 0;
+    font-weight:400;
+    text-align: left;
+  
+  }
+  
+  p {
+    margin-left: 470pt;
+    margin-top: -23pt;
+  }
+  
+  #schoolname {
+    margin: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }

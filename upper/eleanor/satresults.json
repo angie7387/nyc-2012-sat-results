@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "02M416",
+    "schoolname": "ELEANOR ROOSEVELT HIGH SCHOOL",
+    "location": "Upper Manhattan",
+    "graduates": "98.4%",
+    "asian": 20.4,
+    "black": 4.1,
+    "hispanic": 10.9,
+    "multiracial": 0.9,
+    "nativeamerican": 0.4,
+    "white": 63.4,
+    "poverty": "21.50%",
+    "reading": 572,
+    "math": 594,
+    "writing": 592,
+    "total": 1758
   }
 
 ]

@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
+    "dbn": "05M304",
+    "schoolname": "MOTT HALL HIGH SCHOOL",
+    "location": "Upper Manhattan",
+    "graduates": "19.2%",
+    "asian": 3.4,
+    "black": 33.3,
+    "hispanic": 58.2,
     "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "nativeamerican": 1,
+    "white": 3.4,
+    "poverty": "93.60%",
+    "reading": 413,
+    "math": 399,
+    "writing": 398,
+    "total": 1210
   }
 
 ]

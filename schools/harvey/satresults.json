@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
+    "dbn": "02M586",
+    "schoolname": "HARVEY MILK HIGH SCHOOL",
     "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
+    "graduates": "13.5%",
+    "asian": 2.7,
+    "black": 29.7,
+    "hispanic": 58.1,
+    "multiracial": 1.4,
     "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "white": 8.1,
+    "poverty": "81.10%",
+    "reading": 458,
+    "math": 416,
+    "writing": 429,
+    "total": 1303
   }
 
 ]

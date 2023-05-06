@@ -1,0 +1,16 @@
+.target {
+    /* styles for when not hovered */
+    background-color: blue;
+    color: white;
+    width: 500px;
+  }
+  
+  .target.hover-effect {
+    /* styles for when hovered */
+    background-color: red;
+    color: black;
+    transition: .5s;
+    width: 1000px;
+
+  }
+  

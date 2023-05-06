@@ -1,19 +1,19 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
+    "dbn": "24Q296",
+    "schoolname": "PAN AMERICAN INTERNATIONAL HIGH SCHOOL",
+    "location": "Queens",
+    "graduates": "3.4%",
     "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
+    "black": 0,
+    "hispanic": 99.8,
     "multiracial": 0,
-    "nativeamerican": 0,
+    "nativeamerican": 0.2,
     "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
+    "poverty": "91.00%",
+    "reading": 317,
+    "math": 323,
+    "writing": 311,
     "total": 951
   }
 

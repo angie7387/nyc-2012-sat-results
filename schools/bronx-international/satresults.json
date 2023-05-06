@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
+    "dbn": "09X403",
+    "schoolname": "BRONX INTERNATIONAL HIGH SCHOOL",
     "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
+    "graduates": "15.5%",
+    "asian": 2.8,
+    "black": 16.2,
+    "hispanic": 77.4,
     "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "nativeamerican": 1.3,
+    "white": 2.3,
+    "poverty": "91.10%",
+    "reading": 314,
+    "math": 312,
+    "writing": 339,
+    "total": 965
   }
 
 ]

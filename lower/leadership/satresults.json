@@ -1,20 +1,19 @@
 [
-  {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
-  }
-
+    {
+      "dbn": "02M425",
+      "schoolname": "LEADERSHIP AND PUBLIC SERVICE HIGH SCHOOL",
+      "location": "Lower Manhattan",
+      "graduates": "19.4%",
+      "asian": 7.8,
+      "black": 25.5,
+      "hispanic": 60.1,
+      "multiracial": 0,
+      "nativeamerican": 0.8,
+      "white": 4.2,
+      "poverty": "85.30%",
+      "reading": 416,
+      "math": 426,
+      "writing": 391,
+      "total": 1233
+    }
 ]

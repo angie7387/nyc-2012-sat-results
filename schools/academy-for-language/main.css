@@ -1,8 +1,9 @@
 body {
 font-family: 'Roboto', sans-serif;
-margin: 0;
+margin: -1px;
 background-color: #00C57E;
 font-size: 11pt;
+width: 100.5%;
 }
 
 .parent-heading {
@@ -20,6 +21,14 @@ font-size: 11pt;
 
   }
 
+  img {
+    z-index: 3;
+    width: 370px;
+    background-color: black;
+    padding: 1%;
+    padding-left: 35%;
+  }
+
   .rightalign {
     text-align: right;
   }
@@ -34,7 +43,7 @@ font-size: 11pt;
   width: 100%;
   padding: 10px;
   margin-top: -60px;
-  margin-left: 50px;
+  margin-left: -10px;
     }
 
 .racial-demographics {
@@ -59,10 +68,16 @@ font-size: 11pt;
 
 }
 
+.background {
+  background-color: black;
+  width: 100%;
+}
+
 h1 {
     font-weight: 500;
     font-size: 14pt;
 }
+
 
 h2 {
     width: 1200px;
@@ -70,17 +85,23 @@ h2 {
     font-size: 80pt; 
     line-height: 67pt;
     text-align: left;
-    margin-left: 50px;
-    margin-top: 80px;
+    padding-top: -60px;
+}
+
+h2 {
+    font-size: 12pt; 
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 h3 {
-    font-size: 105pt;
-    font-weight: 900;
+    font-size: 15pt;
+    font-weight: 700;
     margin: 0;
+    margin-top: 10px;
     text-align: left;
-    letter-spacing: -2pt;
-    font-family: 'Azeret Mono', monospace;}
+    margin-left: 0px;
+}
 
 h4 {
   font-size: 40pt;

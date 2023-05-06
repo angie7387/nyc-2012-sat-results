@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
+    "dbn": "17K524",
+    "schoolname": "INTERNATIONAL HIGH SCHOOL AT PROSPECT HEIGHTS",
+    "location": "Brooklyn",
+    "graduates": "13.5%",
+    "asian": 17.6,
+    "black": 22.4,
+    "hispanic": 47.4,
     "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "nativeamerican": 1,
+    "white": 11.7,
+    "poverty": "52.90%",
+    "reading": 287,
+    "math": 335,
+    "writing": 291,
+    "total": 913
   }
 
 ]

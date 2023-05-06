@@ -1,20 +1,20 @@
 [
   {
     "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
+    "schoolname": "QUEENS VOCATIONAL AND TECHNICAL HIGH SCHOOL",
+    "location": "Queens",
+    "graduates": "14.5%",
     "asian": 0,
     "black": 0.3,
     "hispanic": 99.7,
     "multiracial": 0,
     "nativeamerican": 0,
     "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "poverty": "86.10%",
+    "reading": 417,
+    "math": 447,
+    "writing": 406,
+    "total": 1270
   }
 
 ]

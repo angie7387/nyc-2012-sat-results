@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "05M692",
+    "schoolname": "HIGH SCHOOL FOR MATHEMATICS, SCIENCE AND ENGINEERING AT CITY COLLEGE",
+    "location": "Upper Manhattan",
+    "graduates": "98.9%",
+    "asian": 37.6,
+    "black": 8.9,
+    "hispanic": 17.3,
+    "multiracial": 1.1,
+    "nativeamerican": 0.4,
+    "white": 27.2,
+    "poverty": "45.80%",
+    "reading": 605,
+    "math": 654,
+    "writing": 588,
+    "total": 1847
   }
 
 ]

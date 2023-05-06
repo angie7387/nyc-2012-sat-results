@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "02M529",
+    "schoolname": "JACQUELINE KENNEDY ONASSIS HIGH SCHOOL",
+    "location": "Midtown Manhattan",
+    "graduates": "19.5%",
+    "asian": 6.3,
+    "black": 23.7,
+    "hispanic": 65.2,
+    "multiracial": 0.5,
+    "nativeamerican": 0.7,
+    "white": 3.4,
+    "poverty": "78.10%",
+    "reading": 414,
+    "math": 425,
+    "writing": 400,
+    "total": 1239
   }
 
 ]

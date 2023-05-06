@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "03M479",
+    "schoolname": "BEACON HIGH SCHOOL",
+    "location": "Midtown Manhattan",
+    "graduates": "98%",
+    "asian": 11.8,
+    "black": 14.8,
+    "hispanic": 23.2,
+    "multiracial": 3.2,
+    "nativeamerican": 0.9,
+    "white": 38.4,
+    "poverty": "32.20%",
+    "reading": 577,
+    "math": 575,
+    "writing": 592,
+    "total": 1744
   }
 
 ]

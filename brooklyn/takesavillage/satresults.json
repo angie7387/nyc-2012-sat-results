@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "18K563",
+    "schoolname": "IT TAKES A VILLAGE ACADEMY",
+    "location": "Brooklyn",
+    "graduates": "12.4%",
+    "asian": 1.4,
+    "black": 86.8,
+    "hispanic": 7,
+    "multiracial": 0.3,
+    "nativeamerican": 1.1,
+    "white": 1.6,
+    "poverty": "69.40%",
+    "reading": 313,
+    "math": 320,
+    "writing": 330,
+    "total": 963
   }
 
 ]

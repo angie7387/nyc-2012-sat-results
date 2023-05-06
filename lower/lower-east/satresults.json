@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
+    "dbn": "01M515",
+    "schoolname": "LOWER EAST SIDE PREPARATORY HIGH SCHOOL",
+    "location": "Lower Manhattan",
+    "graduates": "60.0%",
+    "asian": 41.6,
+    "black": 9.8,
+    "hispanic": 45.5,
     "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "nativeamerican": 0.4,
+    "white": 2.7,
+    "poverty": "74.80%",
+    "reading": 332,
+    "math": 557,
+    "writing": 316,
+    "total": 1205
   }
 
 ]

@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
-    "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "dbn": "25Q525",
+    "schoolname": "TOWNSEND HARRIS HIGH SCHOOL",
+    "location": "Queens",
+    "graduates": "99.0%",
+    "asian": 58,
+    "black": 5.4,
+    "hispanic": 11.4,
+    "multiracial": 0.9,
+    "nativeamerican": 0.9,
+    "white": 21.1,
+    "poverty": "54.00%",
+    "reading": 621,
+    "math": 651,
+    "writing": 638,
+    "total": 1910
   }
 
 ]

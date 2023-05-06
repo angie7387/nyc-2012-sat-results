@@ -1,20 +1,20 @@
 [
   {
-    "dbn": "09X365",
-    "schoolname": "ACADEMY FOR LANGUAGE AND TECHNOLOGY",
-    "location": "Bronx",
-    "graduates": "19.7",
-    "asian": 0,
-    "black": 0.3,
-    "hispanic": 99.7,
+    "dbn": "19K618",
+    "schoolname": "ACADEMY OF INNOVATIVE TECHNOLOGY",
+    "location": "Brooklyn",
+    "graduates": "6.2%",
+    "asian": 5.4,
+    "black": 43.4,
+    "hispanic": 46.6,
     "multiracial": 0,
-    "nativeamerican": 0,
-    "white": 0,
-    "poverty": ">95",
-    "reading": 315,
-    "math": 339,
-    "writing": 297,
-    "total": 951
+    "nativeamerican": 1,
+    "white": 2,
+    "poverty": "84.10%",
+    "reading": 371,
+    "math": 371,
+    "writing": 354,
+    "total": 1096
   }
 
 ]
